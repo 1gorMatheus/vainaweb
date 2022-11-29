@@ -14,8 +14,8 @@ nav {
 .bandeiras{
     margin-left: 5rem;
     display: flex;
-    align-items: center;/*A propriedade CSS align-items define o valor align-self em todos os filhos diretos como um grupo. No Flexbox, controla o alinhamento dos itens no Eixo Cruzado. No Layout de Grade, ele controla o alinhamento dos itens no Eixo do Bloco dentro de sua área de grade. */
-    justify-content:space-evenly;/*A propriedade justify-content do CSS define como o navegador distribui o espaço entre e ao redor dos itens de conteúdo ao longo do eixo principal de um contêiner flexível e o eixo embutido de um contêiner de grade.*/
+    align-items: center;
+    justify-content:space-evenly;
     width: 70vw;
 }
 img {
@@ -30,7 +30,6 @@ background-image: url('https://i.pinimg.com/originals/98/6f/d1/986fd14123412ac52
 background-size: 100%;
   background-repeat: no-repeat;
   background-size: 100%;
-   /* display: flex; O display: flex; faz com que a imagem aparece toda */
  flex-direction: column;
  padding-top: 10vw;
  padding-left: 6.5rem;
@@ -41,13 +40,6 @@ background-size: 100%;
     text-transform: uppercase;
     color: white;
 }
-/* .conteinerBandeiras{
-    display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    /* A propriedade CSS flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas. Se o argumento for valido, ele define a direção em que as linhas são empilhadas. 
-    padding: 0 7rem 0 7rem;
-}*/
  
 .boxBandeiras{
     display: flex;
